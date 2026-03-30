@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "faceapi": "^1.0.1",
+    "imagekit": "^6.0.0",
+    "mongoose": "^8.23.0",
+    "multer": "^2.1.0",
+    "nodemon": "^3.1.14"
+  }
+}

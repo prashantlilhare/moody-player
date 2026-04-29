@@ -1,10 +1,3 @@
 .env
 node_modules
-dist/
-build/
-logs/
-*.log
-*.env
-.DS_Store
-.idea/
-.vscode/        
+dist

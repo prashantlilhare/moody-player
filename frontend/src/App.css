@@ -1,0 +1,118 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+/* Cinematic Intro Screen */
+.intro-screen {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.intro-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.6) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.intro-tagline {
+  font-size: 1.25rem;
+  color: var(--muted);
+  font-family: 'Sora', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Main Content Wrapper */
+.app-main {
+  width: 100%;
+}
+
+/* Sections */
+.story-section {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+}
+
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.6) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--accent2);
+  font-family: 'Sora', sans-serif;
+  opacity: 0.9;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 3rem;
+}
+
+.start-btn {
+  background: linear-gradient(135deg, var(--theme-glow), var(--accent2));
+  color: white;
+  border: none;
+  padding: 18px 36px;
+  border-radius: 999px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.start-btn:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 15px 40px var(--theme-glow);
+}
+
+.detector-section {
+  width: 100%;
+}
+
+.songs-section {
+  width: 100%;
+  padding-bottom: 80px;
+}

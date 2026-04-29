@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(8px);
+  margin-top: auto;
+}
+
+.footer span {
+  color: var(--accent1);
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); color: var(--accent2); }
+  100% { transform: scale(1); }
+}
